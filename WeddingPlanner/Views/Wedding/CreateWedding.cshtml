@@ -1,0 +1,45 @@
+@model WeddingPlanner.Models.WeddingViewModel 
+@{
+    ViewData["Title"] = "Home Page";
+}
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/Dashboard">WeddingPlanner</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <!-- <li class="active"><a href="/Dashboard">Home</a></li> -->
+      <li><a href="/Dashboard">Dashboard</a></li>
+      <li><a href="/CreateWedding">Plan Your Wedding</a></li>
+      <li><a href="/logout">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<form asp-controller="Wedding" asp-action="/create" method="post">
+    <div>
+        <div class="form-group">
+            <span asp-validation-for="Bride"></span>
+            <label asp-for="Bride">Bride</label>
+            <input asp-for="Bride" class="form-control">
+        </div>
+        
+        <div class="form-group">
+            <span asp-validation-for="Groom"></span>
+            <label asp-for="Groom">Groom </label>
+            <input asp-for="Groom" class="form-control">
+        </div>
+
+        <div class="form-group">
+            <span asp-validation-for="Date"></span>
+            <label asp-for="Date">Date</label>
+            <input asp-for="Date" class="form-control" type="Date">
+        </div>
+
+         <div class="form-group">
+            <span asp-validation-for="Address"></span>
+            <label asp-for="Address">Address</label>
+            <input asp-for="Address" class="form-control">
+        </div>
+    </div>
+    <button type="submit" class="btn btn-default">Register</button>
+</form>

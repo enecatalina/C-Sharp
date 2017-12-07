@@ -1,0 +1,10 @@
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.dll
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/bin/Debug/netcoreapp2.0/DojoSurvey.pdb
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.csproj.CoreCompileInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.AssemblyInfoInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.dll
+/Users/catalinaene/Desktop/Assignments/C#/DojoSurvey/obj/Debug/netcoreapp2.0/DojoSurvey.pdb

@@ -1,0 +1,45 @@
+@model REST.Models.UserReview
+@{
+    ViewData["Title"] = "Home Page";
+}
+<form asp-controller="Reviews" asp-action="create">
+
+    <div class="form-group">
+      <label asp-for="Reviewer">Reviewer</label>
+      <input asp-for="Reviewer" type="text" class="form-control" >
+    </div>
+
+    <div class="form-group">
+      <label asp-for="Restaurants">Restaurants</label>
+      <input asp-for="Restaurants" type="text" class="form-control" >
+    </div>
+
+    <div class="form-group">
+      <label asp-for="Review">Review</label>
+      <input asp-for="Review"type="text" class="form-control" >
+    </div>
+
+    <div class="form-group">
+      <label asp-for="Visit">Visit Date</label>
+      <input asp-for="Visit"type="Date" class="form-control" >
+    </div>
+    
+    <div class="form-group">
+      <label for="Stars">Stars:</label>
+      <select asp-for="Stars" name="Stars">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+      </select><br>
+      <span asp-validation-for="Stars"></span>
+    </div>
+
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+  
+  @if(TempData["InvalidDate"] != null)
+    {
+        <li>@TempData["InvalidDate"]</li>
+    }

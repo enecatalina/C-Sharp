@@ -1,0 +1,47 @@
+@using BeltExam.Models;
+@using System;
+@using System.Linq;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Auction</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/Dashboard">Dashboard</a></li>
+      <li><a href="/createAuctions">Auctions</a></li>
+      <li><a href="/logout">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid">
+ <h1>Welcome @ViewBag.UserProfile.FirstName</h1>
+ <p>Balance: $ @ViewBag.UserProfile.Balance</p>
+  <h4>Here Are The Current Auctions:</h4>
+
+  <table>
+    <th>Product</th>
+    <th>Seller</th>
+    <th>Time Remaining</th>
+    <th>Action</th>
+    @foreach( var auction in @ViewBag.AllAuctions)
+    {
+      <tr>
+        <th><a href="/auctionprofile/@auction.idAuction">@auction.Product</a></th>
+        <td>@auction.User.FirstName</td>
+        <td>@auction.TimeRemaining</td>
+      
+        <td>
+              @if(auction.idUser == @ViewBag.UserProfile.idUser) 
+              {
+                  <td><a href="delete/@auction.idAuction">Delete</a></td>
+              }
+        </td>
+      </tr>
+    }
+</table>
+</div>

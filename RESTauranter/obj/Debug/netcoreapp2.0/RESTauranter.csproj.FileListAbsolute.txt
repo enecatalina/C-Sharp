@@ -1,0 +1,10 @@
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.dll
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/bin/Debug/netcoreapp2.0/RESTauranter.pdb
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.csproj.CoreCompileInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfoInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.dll
+/Users/catalinaene/Desktop/Assignments/C#/RESTauranter/obj/Debug/netcoreapp2.0/RESTauranter.pdb

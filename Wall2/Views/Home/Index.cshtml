@@ -1,0 +1,18 @@
+@model Wall2.Models.LoginRegisterViewModel
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">CodingDojo Wall</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="/logout"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="form-group">
+  <form asp-controller="Home" asp-action="create">
+      <label for="comment">Messages:</label>
+      <textarea class="form-control" rows="5" id="comment"></textarea>
+      <input type="submit" value="Submit" class="btn btn-primary">
+  </form>
+</div>

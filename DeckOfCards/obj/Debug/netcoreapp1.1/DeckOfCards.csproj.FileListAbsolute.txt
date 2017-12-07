@@ -1,0 +1,8 @@
+/Users/catalinaene/Desktop/Assignments/C#/DeckOfCards/bin/Debug/netcoreapp1.1/DeckOfCards.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/DeckOfCards/bin/Debug/netcoreapp1.1/DeckOfCards.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/DeckOfCards/bin/Debug/netcoreapp1.1/DeckOfCards.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/DeckOfCards/bin/Debug/netcoreapp1.1/DeckOfCards.dll
+/Users/catalinaene/Desktop/Assignments/C#/DeckOfCards/bin/Debug/netcoreapp1.1/DeckOfCards.pdb
+/Users/catalinaene/Desktop/Assignments/C#/DeckOfCards/obj/Debug/netcoreapp1.1/DeckOfCards.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/DeckOfCards/obj/Debug/netcoreapp1.1/DeckOfCards.dll
+/Users/catalinaene/Desktop/Assignments/C#/DeckOfCards/obj/Debug/netcoreapp1.1/DeckOfCards.pdb

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <title>Review</title>
+</head>
+<body>
+  <form asp-controller="Review" asp-action="create">
+
+    <div class="form-group">
+      <label asp-for="Reviewer">Reviewer</label>
+      <input asp-for="Reviewer" type="text" class="form-control" >
+    </div>
+
+    <div class="form-group">
+      <label asp-for="Restaurants">Restaurants</label>
+      <input asp-for="Restaurants" type="text" class="form-control" id="pwd">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="Review">Review</label>
+      <input asp-for="Review"type="text" class="form-control" id="pwd">
+    </div>
+
+    <div class="form-group">
+      <label asp-for="Visit">Visit Date</label>
+      <input asp-for="Visit"type="number" class="form-control" id="pwd">
+    </div>
+
+    <button type="submit" class="btn btn-default">Submit</button>
+  </form>
+</body>
+</html>

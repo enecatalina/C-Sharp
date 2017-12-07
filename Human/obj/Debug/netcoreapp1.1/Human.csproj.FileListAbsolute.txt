@@ -1,0 +1,8 @@
+/Users/catalinaene/Desktop/Assignments/C#/Human/bin/Debug/netcoreapp1.1/Human.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/Human/bin/Debug/netcoreapp1.1/Human.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/Human/bin/Debug/netcoreapp1.1/Human.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/Human/bin/Debug/netcoreapp1.1/Human.dll
+/Users/catalinaene/Desktop/Assignments/C#/Human/bin/Debug/netcoreapp1.1/Human.pdb
+/Users/catalinaene/Desktop/Assignments/C#/Human/obj/Debug/netcoreapp1.1/Human.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/Human/obj/Debug/netcoreapp1.1/Human.dll
+/Users/catalinaene/Desktop/Assignments/C#/Human/obj/Debug/netcoreapp1.1/Human.pdb

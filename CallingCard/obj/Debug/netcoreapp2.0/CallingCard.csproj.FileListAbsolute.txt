@@ -1,0 +1,10 @@
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.dll
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/bin/Debug/netcoreapp2.0/CallingCard.pdb
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.csproj.CoreCompileInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfoInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.dll
+/Users/catalinaene/Desktop/Assignments/C#/CallingCard/obj/Debug/netcoreapp2.0/CallingCard.pdb

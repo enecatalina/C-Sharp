@@ -1,0 +1,97 @@
+@model Wall2.Models.LoginRegisterViewModel
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">CodingDojo Wall</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <!-- <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
+    </ul>
+  </div>
+</nav>
+<div>
+    <h1>Welcome To The CodingDojo Wall!</h1>
+</div>
+<hr>
+<div>
+    @{
+        try
+        {
+            // If ViewBag.error is null, this might throw an error.
+            foreach(var error in ViewBag.errors)
+            {
+                //If there are any errors for a field...
+                if(@error.Errors.Count > 0)
+                {
+                    // We show the first error for that field
+                    <p>@error.Errors[0].ErrorMessage</p>
+                }
+            }
+        }   
+        catch(Exception ex)
+        {
+            // The Try catch will catch the error should ViewBag.errors be null 
+            // and not display the error to the user
+        }
+    }
+</div>
+
+<h4>Register</h4>
+<div>
+    <form asp-controller="Home" asp-action="Register" method="post">
+    <div class="row">
+        <div class="form-group col-md-6">
+            <!-- <span asp-validation-for="FirstName"></span> -->
+            <label asp-for="registerVM.FirstName"></label>
+            <input asp-for="registerVM.FirstName" class="form-control" />
+        </div>
+
+        <div class="form-group col-md-6">
+             <!-- <span asp-validation-for="LirstName"></span> -->
+            <label asp-for="registerVM.LastName"></label>
+            <input asp-for="registerVM.LastName" class="form-control" />
+        </div>
+
+        <div class="form-group col-md-6">
+             <!-- <span asp-validation-for="Email"></span> -->
+            <label asp-for="registerVM.Email"></label>
+            <input asp-for="registerVM.Email" class="form-control" />
+        </div>
+
+        <div class="form-group col-md-6">
+             <!-- <span asp-validation-for="Password"></span> -->
+            <label asp-for="registerVM.Password"></label>
+            <input asp-for="registerVM.Password" class="form-control" />
+        </div>
+
+        <div class="form-group col-md-6">
+             <!-- <span asp-validation-for="ConfirmPassword"></span> -->
+            <label asp-for="registerVM.ConfirmPassword"></label>
+            <input asp-for="registerVM.ConfirmPassword" class="form-control" />
+        </div>
+        <input type="submit" class="btn btn-primary">
+    </form>
+</div>
+<hr>
+<h4>Login</h4>
+<div>
+    <form asp-controller="Home" asp-action="Login" method="post">
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label asp-for="loginVM.loginEmail">Email</label>
+            <input asp-for="loginVM.loginEmail" name="Email" class="form-control" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label asp-for="loginVM.loginPassword">Password</label>
+            <input asp-for="loginVM.loginPassword" name="Email" class="form-control" />
+        </div>
+        <input type="submit" value="Submit" class="btn btn-primary">
+    </form>
+
+</div>
+
+</div>
+

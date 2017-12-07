@@ -1,0 +1,8 @@
+/Users/catalinaene/Desktop/Assignments/C#/FundamentalsI/bin/Debug/netcoreapp1.1/FundamentalsI.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/FundamentalsI/bin/Debug/netcoreapp1.1/FundamentalsI.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/FundamentalsI/bin/Debug/netcoreapp1.1/FundamentalsI.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/FundamentalsI/bin/Debug/netcoreapp1.1/FundamentalsI.dll
+/Users/catalinaene/Desktop/Assignments/C#/FundamentalsI/bin/Debug/netcoreapp1.1/FundamentalsI.pdb
+/Users/catalinaene/Desktop/Assignments/C#/FundamentalsI/obj/Debug/netcoreapp1.1/FundamentalsI.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/FundamentalsI/obj/Debug/netcoreapp1.1/FundamentalsI.dll
+/Users/catalinaene/Desktop/Assignments/C#/FundamentalsI/obj/Debug/netcoreapp1.1/FundamentalsI.pdb

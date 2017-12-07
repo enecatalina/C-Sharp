@@ -1,0 +1,8 @@
+/Users/catalinaene/Desktop/Assignments/C#/Vehicle/bin/Debug/netcoreapp1.1/Vehicle.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/Vehicle/bin/Debug/netcoreapp1.1/Vehicle.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/Vehicle/bin/Debug/netcoreapp1.1/Vehicle.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/Vehicle/obj/Debug/netcoreapp1.1/Vehicle.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/Vehicle/bin/Debug/netcoreapp1.1/Vehicle.dll
+/Users/catalinaene/Desktop/Assignments/C#/Vehicle/bin/Debug/netcoreapp1.1/Vehicle.pdb
+/Users/catalinaene/Desktop/Assignments/C#/Vehicle/obj/Debug/netcoreapp1.1/Vehicle.dll
+/Users/catalinaene/Desktop/Assignments/C#/Vehicle/obj/Debug/netcoreapp1.1/Vehicle.pdb

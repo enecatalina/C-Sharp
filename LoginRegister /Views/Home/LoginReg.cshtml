@@ -1,0 +1,51 @@
+@model LoginRegister.Models.LoginRegViewModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+<h1>Register</h1>
+
+<form asp-controller="Home" asp-action="Register" method="post">
+    <div>
+        <!-- registerVM comes from the ViewModel which is connected to the Users class model   -->
+        <div class="form-group col-md-6">
+            <label asp-for="registerVM.FirstName"></label>
+            <input asp-for="registerVM.FirstName"/>
+        </div>
+            
+        <div class="form-group col-md-6">
+            <label asp-for="registerVM.LastName"></label>
+            <input asp-for="registerVM.LastName"/>
+        </div>
+            
+        <div class="form-group col-md-6">
+            <label asp-for="registerVM.Email"></label>
+            <input asp-for="registerVM.Email"/>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label asp-for="registerVM.RegisterPassword"></label>
+            <input asp-for="registerVM.RegisterPassword"/>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label asp-for="registerVM.ConfirmPassword"></label>
+            <input asp-for="registerVM.ConfirmPassword"/>
+        </div>
+            <button type="submit">Register</button>
+    </div>
+</form>
+
+<h1>Login</h1>   
+    <form asp-controller="Home" asp-action="Login"  method="post">
+         <!-- loginVM comes from the ViewModel which is connected to the Users class model   -->
+        <div class="form-group col-md-6">
+            <label asp-for="loginVM.loginEmail"></label>
+            <input class="form-control" asp-for="loginVM.loginEmail">
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="loginVM.loginPassword"></label>
+            <input class="form-control" asp-for="loginVM.loginPassword">
+        </div>
+        <input type="submit"class="btn btn-primary" >
+    </form>
+

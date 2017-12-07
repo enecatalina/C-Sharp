@@ -1,0 +1,53 @@
+@model BeltExam.Models.AuctionViewModel 
+@using System;
+@using System.Linq;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">BeltExam</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/Dashboard">Dashboard</a></li>
+      <li><a href="/createAuctions">Auctions</a></li>
+      <li><a href="/logout">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid">
+    <form asp-controller="Auction" asp-action="createAuctions" method="post">
+    <div>
+            
+        <div class="form-group">
+            <span asp-validation-for="Product"></span>
+            <label asp-for="Product">Product</label>
+            <input asp-for="Product" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+            <span asp-validation-for="Description"></span>
+            <label asp-for="Description">Description</label>
+            <input asp-for="Description" class="form-control"/>
+        </div>
+
+        <div class="form-group">
+            <span asp-validation-for="StartingBid"></span>
+            <label asp-for="StartingBid">Starting Bid</label>
+            <input asp-for="StartingBid" class="form-control" type="number" min="0"/>
+        </div>
+
+         <div class="form-group">
+            <span asp-validation-for="EndDate"></span>
+            <label asp-for="EndDate">End Date</label>
+            <input asp-for="EndDate" class="form-control" type="Date"/>
+            <td><span>@ViewBag.DateError</span></td>
+        </div>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Create Bid</button>
+</form>
+</div>

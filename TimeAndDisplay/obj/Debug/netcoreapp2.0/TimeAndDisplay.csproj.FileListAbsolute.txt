@@ -1,0 +1,10 @@
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/bin/Debug/netcoreapp2.0/TimeAndDisplay.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/bin/Debug/netcoreapp2.0/TimeAndDisplay.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/bin/Debug/netcoreapp2.0/TimeAndDisplay.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/bin/Debug/netcoreapp2.0/TimeAndDisplay.dll
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/bin/Debug/netcoreapp2.0/TimeAndDisplay.pdb
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/obj/Debug/netcoreapp2.0/TimeAndDisplay.csproj.CoreCompileInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/obj/Debug/netcoreapp2.0/TimeAndDisplay.AssemblyInfoInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/obj/Debug/netcoreapp2.0/TimeAndDisplay.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/obj/Debug/netcoreapp2.0/TimeAndDisplay.dll
+/Users/catalinaene/Desktop/Assignments/C#/TimeAndDisplay/obj/Debug/netcoreapp2.0/TimeAndDisplay.pdb

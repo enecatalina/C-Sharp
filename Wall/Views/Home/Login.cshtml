@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/">CodingDojo Wall</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<div>
+    <form action ="/login" method="post">
+    <div class="row">
+        <div class="form-group col-md-6">
+            <label>Email</label>
+            <input name="email" class="form-control" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label>Password</label>
+            <input name="password" class="form-control" />
+        </div>
+    </form>
+</div>

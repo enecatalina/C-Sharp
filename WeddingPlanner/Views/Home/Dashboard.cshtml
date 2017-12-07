@@ -1,0 +1,67 @@
+@using WeddingPlanner.Models;
+@using System;
+@using System.Linq;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WeddingPlanner</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="/Dashboard">Dashboard</a></li>
+      <li><a href="/CreateWedding">Plan Your Wedding</a></li>
+      <li><a href="/logout">Logout</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="container-fluid">
+  <h1>Welcome @ViewBag.UserProfile.FirstName</h1>
+    <table class="table">
+        <thead>
+            <tr>
+              <th>Wedding</th>
+              <th>Date</th>
+              <th>Guest</th>
+              <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+           @foreach ( var wed in @ViewBag.AllWeddings)
+           {
+             <tr>
+                <td>@wed.Bride and @wed.Groom</td>
+                <td>@wed.Date.ToString("MMM dd yyy")</td>
+                <td>@wed.Guests.Count</td>
+                @if (@wed.idUser == @ViewBag.UserProfile.idUser)
+                {
+                  <td><a href="delete/@wed.idWedding">Delete</a></td>
+                }
+                else
+                {
+                  bool RSVP = false;
+                @foreach(var guest in @wed.Guests)
+                {
+                    @if(@guest.idUser == @ViewBag.UserProfile.idUser)
+                    {
+                        RSVP = true;
+                    }
+                }
+                @if(!RSVP)
+                {
+                    <td><a href="/rsvp/@wed.idWedding">RSVP</a></td>
+
+                }
+                else
+                { 
+                    <td><a href="/unRSVP/@wed.idWedding">Un-RSVP</a></td>
+                }
+                }
+             </tr>
+           }
+        </tbody>
+    </table>
+</div>

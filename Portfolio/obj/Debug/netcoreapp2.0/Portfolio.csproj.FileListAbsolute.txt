@@ -1,0 +1,10 @@
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.dll
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/bin/Debug/netcoreapp2.0/Portfolio.pdb
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.csproj.CoreCompileInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.AssemblyInfoInputs.cache
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.AssemblyInfo.cs
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.dll
+/Users/catalinaene/Desktop/Assignments/C#/Portfolio/obj/Debug/netcoreapp2.0/Portfolio.pdb

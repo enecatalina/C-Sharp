@@ -1,0 +1,4 @@
+/Users/catalinaene/Desktop/Assignments/C#/Boxing_Unboxing/bin/Debug/netcoreapp1.1/Boxing_Unboxing.deps.json
+/Users/catalinaene/Desktop/Assignments/C#/Boxing_Unboxing/bin/Debug/netcoreapp1.1/Boxing_Unboxing.runtimeconfig.json
+/Users/catalinaene/Desktop/Assignments/C#/Boxing_Unboxing/bin/Debug/netcoreapp1.1/Boxing_Unboxing.runtimeconfig.dev.json
+/Users/catalinaene/Desktop/Assignments/C#/Boxing_Unboxing/obj/Debug/netcoreapp1.1/Boxing_Unboxing.AssemblyInfo.cs

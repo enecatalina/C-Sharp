@@ -1,0 +1,6 @@
+{
+    "DBInfo": {
+        "Name": "MySQLconnect",
+        "ConnectionString": "Data Source=localhost;Initial Catalog=Users;User Id=Foo;Password=root"
+    }
+}
